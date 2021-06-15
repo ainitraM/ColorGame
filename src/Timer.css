@@ -1,0 +1,49 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+}
+
+.time {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button, .buttons input {
+    padding: 0.4rem 1.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 300ms ease-in-out;
+    transform: translateY(0);
+}
+
+.buttons input {
+    border-color: #3ed927;
+    border-style: revert;
+    height: 40px;
+}
+
+.buttons button:hover, input:hover {
+    transform: translateY(-2px);
+}
+
+.start {
+    border: none;
+    background: #3ed927;
+    color: white;
+}
+
+
+
+
